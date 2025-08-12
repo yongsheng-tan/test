@@ -25,9 +25,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "node_modules/@dds/angular/styles/dds-reboot.css",
+              "node_modules/@dds/angular/styles/dds-fonts.css",
+              "node_modules/@dds/angular/styles/dds-icons.css",
+              "node_modules/@dds/angular/styles/dds-helpers.css",
+              "node_modules/@dds/angular/styles/dds-main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/JS/randomgen.js"
+            ]
           },
           "configurations": {
             "production": {
